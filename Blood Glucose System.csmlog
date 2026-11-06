@@ -1,0 +1,21 @@
+- CSM Version | 2026.4.0.0
+- PeriodicLog.Enable | 1
+- PeriodicLog.Threshold(#/s) | 2.00
+- PeriodicLog.CheckPeriod(s) | 1.00
+2026/10/19 17:31:29.274 [17:31:29.274] [Module Created] CSM-Module | <path> >> 总控程序 _2026.vi
+2026/10/19 17:31:29.275 [17:31:29.274] [State Change] CSM-Module | Macro: Initialize
+2026/10/19 17:31:29.275 [17:31:29.274] [Module Created] Data Collection | <path> >> Data Collection and Save.lvlib:Data Collection and Save.vi > 总控程序 _2026.vi
+2026/10/19 17:31:29.276 [17:31:29.274] [State Change] Data Collection | Macro: Initialize
+2026/10/19 17:31:29.276 [17:31:29.275] [State Change] CSM-Module | Data: Initialize
+2026/10/19 17:31:29.276 [17:31:29.276] [State Change] Data Collection | Data: Initialize
+2026/10/19 17:31:29.276 [17:31:29.276] [State Change] Data Collection | Initialize Core Data
+2026/10/19 17:31:29.276 [17:31:29.276] [State Change] Data Collection | Data: Update Indicators
+2026/10/19 17:31:29.292 [17:31:29.292] [State Change] CSM-Module | Initialize Core Data
+2026/10/19 17:31:29.292 [17:31:29.292] [State Change] CSM-Module | Data: Update Indicators
+2026/10/19 17:31:29.292 [17:31:29.292] [State Change] CSM-Module | UI: Initialize
+2026/10/19 17:31:34.952 [17:31:34.952] [State Change] CSM-Module | Macro: Exit
+2026/10/19 17:31:34.952 [17:31:34.952] [State Change] CSM-Module | Macro: Exit Sub-Modules
+2026/10/19 17:31:34.953 [17:31:34.953] [Sync Message] CSM-Module | Macro: Exit -@ Data Collection
+2026/10/19 17:31:34.953 [17:31:34.953] [State Change] Data Collection | Macro: Exit <- CSM-Module
+2026/10/19 17:31:34.953 [17:31:34.953] [State Change] Data Collection | Data: Cleanup
+2026/10/19 17:31:35.254 <Logger Thread Exit> 0 logs are still in the queue.

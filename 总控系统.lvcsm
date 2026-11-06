@@ -1,0 +1,233 @@
+[CSMModule.Acquisition - TP1]
+VIName = "UI-温度采集.lvlib:Acquisition.lvlib:Aquisition.vi"
+
+[CSMVI.UI-温度采集.lvlib:Acquisition.lvlib:Aquisition.vi]
+Path = "<AppDir>/辅助系统/1. 温度采集/Aquisition/Aquisition.vi"
+
+[CSMStates.UI-温度采集.lvlib:Acquisition.lvlib:Aquisition.vi]
+Item 0 = "Idle"
+Item 1 = "CSM Documentation"
+Item 2 = "VI Reference"
+Item 3 = "Error Handler"
+Item 4 = "Critical Error"
+Item 5 = "Target Timeout Error"
+Item 6 = "Target Error"
+Item 7 = "Async Response"
+Item 8 = "Response"
+Item 9 = "Async Message Posted"
+Item 10 = "Initialize Core Data"
+Item 11 = "Exit"
+Item 12 = "Data: Initialize"
+Item 13 = "Data: Update Indicators"
+Item 14 = "Data: Cleanup"
+Item 15 = "Macro: Initialize"
+Item 16 = "Macro: Exit"
+Item 17 = "API: API1"
+Item 18 = "API: Start"
+Item 19 = "API: Stop"
+Item 20 = "DAQ: Initialize"
+Item 21 = "DAQ: Acquisite"
+Item 22 = "DAQ: Stop"
+Item 23 = "DAQ: Close"
+Item 24 = "Continuous Check"
+Item 25 = "Break Continuous"
+
+[CSMStatus.UI-温度采集.lvlib:Acquisition.lvlib:Aquisition.vi]
+Item 0 = "Error Occurred@Error Handler"
+Item 1 = "Acquired Data@DAQ: Acquisite"
+
+[CSM Debug Console]
+Response Timeout(s) = 30
+History Length = 50
+Periodic Enable = TRUE
+Periodic threashold(#/s) = 0.500000
+Periodic Check Peroid(s) = 3.000000
+History 0 = "Macro: Exit -@ Acquisition - TP1"
+
+[CSMModule.Acquisition - WK1]
+VIName = "UI-温度控制.lvlib:Acquisition.lvlib:Acquisition.vi"
+
+[CSMVI.UI-温度控制.lvlib:Acquisition.lvlib:Acquisition.vi]
+Path = "<AppDir>/辅助系统/2. 温度控制/Acquisition/Acquisition.vi"
+
+[CSMStates.UI-温度控制.lvlib:Acquisition.lvlib:Acquisition.vi]
+Item 0 = "Idle"
+Item 1 = "CSM Documentation"
+Item 2 = "VI Reference"
+Item 3 = "Error Handler"
+Item 4 = "Critical Error"
+Item 5 = "Target Timeout Error"
+Item 6 = "Target Error"
+Item 7 = "Async Response"
+Item 8 = "Response"
+Item 9 = "Async Message Posted"
+Item 10 = "Initialize Core Data"
+Item 11 = "Exit"
+Item 12 = "Data: Initialize"
+Item 13 = "Data: Update Indicators"
+Item 14 = "Data: Cleanup"
+Item 15 = "Macro: Initialize"
+Item 16 = "Macro: Exit"
+Item 17 = "API: Start"
+Item 18 = "API: Stop"
+Item 19 = "API: ONOFF1"
+Item 20 = "API: ONOFF2"
+Item 21 = "API: Fast Mode"
+Item 22 = "API: Sample Interval"
+Item 23 = "DAQ: Initialize"
+Item 24 = "DAQ: Acquisite"
+Item 25 = "DAQ: Stop"
+Item 26 = "DAQ: Close"
+Item 27 = "Continuous Check"
+Item 28 = "Break Continuous"
+
+[CSMStatus.UI-温度控制.lvlib:Acquisition.lvlib:Acquisition.vi]
+Item 0 = "Error Occurred@Error Handler"
+Item 1 = "Acquired Data@DAQ: Acquisite"
+
+[CSMModule.Logging - WK1]
+VIName = "UI-温度控制.lvlib:Logging.lvlib:Logging.vi"
+
+[CSMVI.UI-温度控制.lvlib:Logging.lvlib:Logging.vi]
+Path = "<AppDir>/辅助系统/2. 温度控制/Logging/Logging.vi"
+
+[CSMStates.UI-温度控制.lvlib:Logging.lvlib:Logging.vi]
+Item 0 = "Idle"
+Item 1 = "CSM Documentation"
+Item 2 = "VI Reference"
+Item 3 = "Error Handler"
+Item 4 = "Critical Error"
+Item 5 = "Target Timeout Error"
+Item 6 = "Target Error"
+Item 7 = "Async Response"
+Item 8 = "Response"
+Item 9 = "Async Message Posted"
+Item 10 = "Initialize Core Data"
+Item 11 = "Exit"
+Item 12 = "Data: Initialize"
+Item 13 = "Data: Update Indicators"
+Item 14 = "Data: Cleanup"
+Item 15 = "Macro: Initialize"
+Item 16 = "Macro: Exit"
+Item 17 = "API: Start"
+Item 18 = "API: Log"
+Item 19 = "API: Stop"
+Item 20 = "API: Close"
+
+[CSMStatus.UI-温度控制.lvlib:Logging.lvlib:Logging.vi]
+Item 0 = "Error Occurred@Error Handler"
+
+[CSMModule.WK1]
+VIName = "UI-温度控制.lvlib:温度控制 - WK1.vi"
+
+[CSMVI.UI-温度控制.lvlib:温度控制 - WK1.vi]
+Path = "<AppDir>/辅助系统/2. 温度控制/温度控制 - WK1.vi"
+
+[CSMStatus.UI-温度控制.lvlib:温度控制 - WK1.vi]
+Item 0 = "Action: Power Output 1@"
+Item 1 = "Action: Power Output 2@"
+Item 2 = "Action: Power Output 1@"
+Item 3 = "Action: Power Switch 1@"
+Item 4 = "Action: Power Switch 2@"
+Item 5 = "Acq: Fast Mode@"
+Item 6 = "Acq: Sample Interval@"
+
+[CSMStates.UI-温度控制.lvlib:温度控制 - WK1.vi]
+Item 0 = "Idle"
+Item 1 = "CSM Documentation"
+Item 2 = "VI Reference"
+Item 3 = "Error Handler"
+Item 4 = "Critical Error"
+Item 5 = "Target Timeout Error"
+Item 6 = "Target Error"
+Item 7 = "Async Response"
+Item 8 = "Response"
+Item 9 = "Async Message Posted"
+Item 10 = "Initialize Core Data"
+Item 11 = "Exit"
+Item 12 = "Data: Initialize"
+Item 13 = "Data: Update Indicators"
+Item 14 = "Data: Cleanup"
+Item 15 = "UI: Initialize"
+Item 16 = "UI: Start"
+Item 17 = "UI: Output1"
+Item 18 = "UI: Output2"
+Item 19 = "UI: PID1"
+Item 20 = "UI: PID2"
+Item 21 = "UI: Protect1"
+Item 22 = "UI: Protect2"
+Item 23 = "UI: Update Graph"
+Item 24 = "Macro: Initialize"
+Item 25 = "Macro: Start"
+Item 26 = "Macro: Close"
+Item 27 = "Macro: Stop"
+Item 28 = "Macro: Exit"
+Item 29 = "Action: Power Output 1"
+Item 30 = "Action: Power Output 2"
+Item 31 = "Action: Change Temp 1"
+Item 32 = "Action: Change Temp 2"
+Item 33 = "Action: Power Switch 1"
+Item 34 = "Action: Power Switch 2"
+Item 35 = "Action: Output Set 1"
+Item 36 = "Action: Output Set 2"
+Item 37 = "Action: PID Set 1"
+Item 38 = "Action: PID Set 2"
+Item 39 = "Action: OTP Set 1"
+Item 40 = "Action: OTP Set 2"
+Item 41 = "Action: OVP Set 1"
+Item 42 = "Action: OVP Set 2"
+Item 43 = "Acq: Fast Mode"
+Item 44 = "Acq: ONOFF1"
+Item 45 = "Acq: ONOFF2"
+Item 46 = "Acq: Sample Interval"
+Item 47 = "Repeat: Enable"
+Item 48 = "Save Repeat"
+Item 49 = "Repeat: Disable"
+Item 50 = "Repeat: Remove"
+
+[DebugConsole.historyView]
+History Length = 50
+
+[CSMModule..app]
+VIName = "CSMScript-Engine(Lite).lvlib:App.vi"
+
+[CSMVI.CSMScript-Engine(Lite).lvlib:App.vi]
+Path = "<AppDir>/src/APP/App.vi"
+
+[CSMStates.CSMScript-Engine(Lite).lvlib:App.vi]
+Item 0 = "Event Structure"
+Item 1 = "Idle"
+Item 2 = "CSM Documentation"
+Item 3 = "Error Handler"
+Item 4 = "VI Reference"
+Item 5 = "Critical Error"
+Item 6 = "Target Timeout Error"
+Item 7 = "Target Error"
+Item 8 = "Async Response"
+Item 9 = "Response"
+Item 10 = "Async Message Posted"
+Item 11 = "Initialize Core Data"
+Item 12 = "Exit"
+Item 13 = "Data: Initialize"
+Item 14 = "Data: Get Configuration"
+Item 15 = "Data: Get Internal Data"
+Item 16 = "Data: Set Configuration"
+Item 17 = "Data: Cleanup"
+Item 18 = "Events: Register"
+Item 19 = "Events: Unregister"
+Item 20 = "UI: Initialize"
+Item 21 = "UI: Cursor Set"
+Item 22 = "UI: Front Panel State"
+Item 23 = "UI: Insert CSMScript OI"
+Item 24 = "UI: Start CSMScript Engine Behind"
+Item 25 = "UI: Show Version Dialog"
+Item 26 = "UI: Update Title"
+Item 27 = "Macro: Initialize"
+Item 28 = "Macro: Exit"
+Item 29 = "API: Load Script File"
+Item 30 = "API: Unload Sequence File"
+Item 31 = "API: Information"
+Item 32 = "API: Settings"
+
+[CSMStatus.CSMScript-Engine(Lite).lvlib:App.vi]
+Item 0 = "Error Occurred@Error Handler"
