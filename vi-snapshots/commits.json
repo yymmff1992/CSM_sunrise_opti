@@ -1,0 +1,26 @@
+[
+  {
+    "sha": "7df3d501285cd6f25d0e9d4943ba67455baf0def",
+    "short": "7df3d50",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "yymmff1992",
+    "date": "2026-11-06T19:34:33+08:00",
+    "vi_count": 176
+  },
+  {
+    "sha": "7e73113aa981f2f8650003e52399308fc2f71013",
+    "short": "7e73113",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "yymmff1992",
+    "date": "2026-11-06T18:13:46+08:00",
+    "vi_count": 176
+  },
+  {
+    "sha": "aa072d2b8b7b96a75c4ffab7984bad821d931091",
+    "short": "aa072d2",
+    "message": "LabVIEW CSM sunrise 主系统和辅助系统等",
+    "author": "yymmff1992",
+    "date": "2026-11-06T17:11:34+08:00",
+    "vi_count": 176
+  }
+]
