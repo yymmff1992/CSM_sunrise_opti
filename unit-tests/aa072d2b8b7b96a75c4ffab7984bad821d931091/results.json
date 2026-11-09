@@ -1,0 +1,71 @@
+{
+ "meta": {
+  "sha": "aa072d2b8b7b96a75c4ffab7984bad821d931091",
+  "short": "aa072d2",
+  "platform": "windows",
+  "repo": "yymmff1992/CSM_sunrise_opti",
+  "pages_url": "https://yymmff1992.github.io/CSM_sunrise_opti",
+  "snap_base": "https://yymmff1992.github.io/CSM_sunrise_opti/vi-snapshots/",
+  "dash_url": "https://yymmff1992.github.io/CSM_sunrise_opti/",
+  "labview_version": "2026",
+  "tools": [],
+  "commit": {
+   "message": "LabVIEW CSM sunrise 主系统和辅助系统等",
+   "author": "yymmff1992",
+   "date": "2026-11-06T17:11:34+08:00"
+  },
+  "generated_utc": "2026-11-09 08:52 UTC"
+ },
+ "summary": {
+  "tests": 0,
+  "passed": 0,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "percent": 0,
+  "status": "empty",
+  "duration": 0.0
+ },
+ "status_order": [
+  "failed",
+  "error",
+  "skipped",
+  "passed"
+ ],
+ "status_meta": {
+  "failed": {
+   "label": "Failed",
+   "color": "#da3633",
+   "blurb": "An assertion failed."
+  },
+  "error": {
+   "label": "Errored",
+   "color": "#bb8009",
+   "blurb": "The test raised an unexpected error."
+  },
+  "skipped": {
+   "label": "Skipped",
+   "color": "#6e7681",
+   "blurb": "The test was skipped."
+  },
+  "passed": {
+   "label": "Passed",
+   "color": "#2ea043",
+   "blurb": "The test passed."
+  }
+ },
+ "platforms": [
+  {
+   "id": "windows",
+   "url": null
+  },
+  {
+   "id": "linux",
+   "url": "linux/results.json"
+  }
+ ],
+ "suites": [],
+ "tooling": {
+  "missing": []
+ }
+}
